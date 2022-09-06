@@ -31,6 +31,10 @@ body::before {
     padding: 100px 0px;
     text-align: center;
 }
+.search {
+    display: flex;
+    justify-content: center;
+}
 .search input {
     height: 45px;
     border-radius: 10px 0px 0px 10px;
@@ -39,9 +43,8 @@ body::before {
     min-width: 300px;
     font-family: inherit;
 }
-.search {
-    display: flex;
-    justify-content: center;
+.search input:focus {
+  outline: 0;
 }
 button {
     background-color: #0786ff;
