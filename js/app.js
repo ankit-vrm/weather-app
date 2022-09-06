@@ -52,5 +52,5 @@ let weather = {
       }
     });
   
-  weather.fetchWeather("Mohali");
+  weather.fetchWeather("--");
   
